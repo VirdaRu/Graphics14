@@ -106,7 +106,7 @@ function main() {
   const geoSphere = new THREE.SphereGeometry( 15, 32, 16);
   
   function Bol(geoSphere, color, x, y, z,) {
-    const material = new THREE.MeshPhongMaterial({color, transparent: true, emissive: 0xFFFF00});    
+    const material = new THREE.MeshPhongMaterial({color, transparent: true, emissive: 0xffbd00});    
     
     const sphere = new THREE.Mesh(geoSphere, material);
     scene.add(sphere);
