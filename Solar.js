@@ -4,7 +4,7 @@ import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/t
 
 function main() {
   const canvas = document.querySelector('#Scene');
-  const renderer = new THREE.WebGLRenderer({canvas});
+  const renderer = new THREE.WebGLRenderer({canvas, antialias : true});
   
   const fov = 90;
   const aspect = 2;  // the canvas default
